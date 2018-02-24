@@ -1,0 +1,169 @@
+body, h1, h2, h3, h4, h5, h6, a, li, p, ul {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.items {
+    width: 100%;
+    clear: both;
+}
+
+/*LOGO*/
+.logo-white{
+    height: 62px;
+}
+
+.logo-white img {
+    float: left;
+    width: 62px;
+    height: 62px;
+}
+
+.logo-white h1 {
+    float: left;
+    color: white;
+    font-size: 48px;
+    font-weight: lighter;
+    line-height: 62px;
+}
+
+/*====*/
+
+.line-scroll {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 60px;
+}
+
+.block {
+    font-family: Raleway-Regular;
+    display: flex;
+    width: 100%;
+}
+
+.in-block {
+    display: flex;
+    width: 50%;
+}
+
+.in-block img {
+    margin: 20% 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.in-block-text {
+    text-align: center;
+    margin: 15% 20%;
+    width: 60%;
+    height: 70%;
+}
+
+.in-block-text h3 {
+    margin-bottom: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.in-block-text p {
+    font-size: 24px;
+    line-height: 1.8;
+    padding: 10px;
+}
+
+/*MAPS*/
+
+.maps {
+    font-family: Raleway-Regular;
+    text-align: center;
+}
+
+.maps h3 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #333;
+}
+
+.footer-block {
+    font-family: Raleway-Regular;
+    float: left;
+    margin: 50px;
+}
+
+.footer-block h4 {
+    color: #919496;
+    font-size: 30px;
+    margin: 10px 0 20px;
+}
+
+.footer-block a {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.footer-block a:hover {
+    color: #34cbe4;
+}
+
+
+/*SOCIALS*/
+
+.socials {
+    display: flex;
+    height: 50%;
+    margin: 25% 0;
+}
+
+.social {
+    margin: 0 8px;
+}
+
+.social img {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s;
+}
+
+.social img:hover {
+    transform: rotate(-15deg);
+}
+
+/*FOOTER-TITLE*/
+
+.footer-title {
+    font-family: Raleway-Regular;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+    background-color: #222;
+}
+
+.footer-title a {
+    color: white;
+}
+
